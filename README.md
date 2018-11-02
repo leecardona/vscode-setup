@@ -1,10 +1,10 @@
 > Table of Contents
-[Overview](https://github.com/leecardona/vscode-setup/tree/development#overview)
-[Setup Steps](https://github.com/leecardona/vscode-setup/tree/development#setup-steps)
-[Base Setup](https://github.com/leecardona/vscode-setup/tree/development#baase-setup)
-[Setup Git Repo](https://github.com/leecardona/vscode-setup/tree/development#setup-git-repo)
+- [Overview](https://github.com/leecardona/vscode-setup/tree/development#overview)
+- [Setup Steps](https://github.com/leecardona/vscode-setup/tree/development#setup-steps)
+- [Base Setup](https://github.com/leecardona/vscode-setup/tree/development#base-setup)
+- [Setup Git Repo](https://github.com/leecardona/vscode-setup/tree/development#setup-git-repo)
 
-[Deleting Branches](https://github.com/leecardona/vscode-setup/tree/development#deleting-branches)
+- [Deleting Branches](https://github.com/leecardona/vscode-setup/tree/development#deleting-branches)
 
 
 # Overview:
