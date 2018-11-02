@@ -61,7 +61,7 @@ Documentation of steps taken to setup Visual Studio Code development environment
 
 - [X] From the result of tag related extentions select `git-tag` by clicking on the `install` button for it.
 
-## Commiting code and updating remote repo
+## Committing code and updating remote repo
 Commiting code updates is pretty straight forward in VSC as it should auto detect any changes to your local git repo. When it does, VSC will provide a visual indication by placing a badge over the SCM tab icon denoting how many changes it has deteced, like so:
 
 ![change detection indicator](https://github.com/leecardona/vscode-setup/blob/master/assets/change_detected.png?raw=true)
