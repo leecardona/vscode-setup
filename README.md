@@ -46,7 +46,7 @@ Below are the steps required, *with some optional steps* , to setup a working VS
 
 ![save workspace dialog](https://github.com/leecardona/vscode-setup/blob/master/assets/vscode_save_workspace_dialog_box.png?raw=true)
 
-- [X] Once you have named and saved youR workspace, note the updated VSC Explorer as it now will denote that the repo is saved as a `(WORKSPACE)`
+- [X] Once you have named and saved your workspace, note the updated VSC Explorer as it now will denote that the repo is saved as a `(WORKSPACE)`
 
 ![repo is a workspace in explorer](https://github.com/leecardona/vscode-setup/blob/master/assets/vscode_workspace_in_explorer.png?raw=true)
 
