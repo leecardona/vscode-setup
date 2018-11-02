@@ -184,6 +184,19 @@ Commiting code updates is pretty straight forward in VSC as it should auto detec
 - [X] From here simply select the desired branch from the list of available branches and VSC will automatically switch you to that branch
 
 ## Merging Branches:
+- [X] Merging branches to pretty straight forward as well. First ensure you are in the `target` branch you want to update, * not the `source` branch with the new code and/or files * . You check the current banch by looking at the current branch indicator at the bottom left of VSC screen:
+
+![vscode branch selector](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_branch_selector.png?raw=true)
+
+- [X] To initiate a merge use the keyboard shortcut combination `shift+cmd+p` to bring up the VSC command prompt:
+
+![vscode merge dialog](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_merge-cmd.png?raw=true)
+
+- [X] Inside the cmd prompt, enter the `Git: Merge Branch` cmd or select it from the downdown list of common/recent cmds. This will result in the `Select a branch to merge from` dialog to appear. 
+
+![select branch to merge](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_merge_from_dialog.png?raw=true)
+
+- [X] Select your `source` branch from the list of available branches to update the `target` branch you are currently in.
 
 ## Deleting Branches:
 
