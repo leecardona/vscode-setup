@@ -1,8 +1,26 @@
-# vscode-setup
+> Table of Contents
+- [Overview](https://github.com/leecardona/vscode-setup/tree/development#overview)
+- [Setup Steps](https://github.com/leecardona/vscode-setup/tree/development#setup-steps)
+  - [Base Setup](https://github.com/leecardona/vscode-setup/tree/development#base-setup)
+  - [Setup Git Repo](https://github.com/leecardona/vscode-setup/tree/development#setup-git-repo)
+  - [Setup Workspace](https://github.com/leecardona/vscode-setup/tree/development#setup-workspace)
+  - [Adding Tag Extention](https://github.com/leecardona/vscode-setup/tree/development#adding-extention-for-tag-automation)
+- [Workflow Steps](https://github.com/leecardona/vscode-setup/tree/development#workflow-steps)
+  - [Committing Code](https://github.com/leecardona/vscode-setup/tree/development#committing-code-and-updating-remote-repo)
+  - [Managing Tags](https://github.com/leecardona/vscode-setup/tree/development#managing-tags)
+    - [Create Tag](https://github.com/leecardona/vscode-setup/tree/development#create-tag)
+    - [List Tags](https://github.com/leecardona/vscode-setup/tree/development#list-tags)
+  - [Creating Branches](https://github.com/leecardona/vscode-setup/tree/development#creating-branches)
+  - [Switching Branches](https://github.com/leecardona/vscode-setup/tree/development#switching-branches)
+  - [Merging Branches](https://github.com/leecardona/vscode-setup/tree/development#merging-branches)
+  - [Deleting Branches](https://github.com/leecardona/vscode-setup/tree/development#deleting-branches)
+
+
+# Overview:
 Documentation of steps taken to setup and use Visual Studio Code for development on a Mac environment
 
 
-# Setup Steps
+# Setup Steps:
 Below are the steps required, *with some optional steps* , to setup a working VSC environment. These step are typically only performed once.
 
 ## Base Setup:
@@ -15,7 +33,7 @@ Below are the steps required, *with some optional steps* , to setup a working VS
 - [X] Launch command prompt with keyboard shortcut `shift+cmd+p`
 
 ![vscode cmd prompt](https://raw.githubusercontent.com/leecardona/vscode-setup/master/assets/vscode_cmd_prompt.png)
-- [X] Inside the cmd prompt, enter the `Git: Clone` cmd or select it from the downdown list of common/recent cmds
+- [X] Inside the cmd prompt, enter the `Git: Clone` cmd or select it from the dropdown list of common/recent cmds
 - [X] This will prompt you for your `repo url` e.g. `https://github.com/leecardona/vscode-setup.git` 
 
 ![repo url prompt](https://github.com/leecardona/vscode-setup/blob/master/assets/repo_url_prompt.png?raw=true)
@@ -50,7 +68,7 @@ Below are the steps required, *with some optional steps* , to setup a working VS
 
 ![repo is a workspace in explorer](https://github.com/leecardona/vscode-setup/blob/master/assets/vscode_workspace_in_explorer.png?raw=true)
 
-## Adding Extention for Tag Automation
+## Adding Extention for Tag Automation:
 *Optional:* Git tags are used to denote key points in code development that signify a milestone, typically a release of some kind like a major or minor release version, or hotfix. Git hosting services like Github will detect tags and auto create releases for you with nice zipped file links for easy release downloading for end-users. VSC support plugins/extentions that add easy to use features to the user interface of VSC that can make activities like tagging easier to manage. 
 
 - [X] Go to the VSC Marketplace to search and install available extentions. Enter the keyboard shortcut `cmd + p` Note this brings up the quick actions dialog not the VSC cmd prompt - they are not the same.
@@ -66,10 +84,10 @@ Below are the steps required, *with some optional steps* , to setup a working VS
 - [X] From the result of tag related extentions select `git-tag` by clicking on the `install` button for it.
 
 
-# Workflow Steps
+# Workflow Steps:
 Below are steps that are performed as part of using VSC on a normal iterative basis.
 
-## Committing code and updating remote repo
+## Committing code and updating remote repo:
 Commiting code updates is pretty straight forward in VSC as it should auto detect any changes to your local git repo. When it does, VSC will provide a visual indication by placing a badge over the SCM tab icon denoting how many changes it has deteced, like so:
 
 ![change detection indicator](https://github.com/leecardona/vscode-setup/blob/master/assets/change_detected.png?raw=true)
@@ -90,7 +108,7 @@ Commiting code updates is pretty straight forward in VSC as it should auto detec
 
 ![list of git commit action](https://github.com/leecardona/vscode-setup/blob/master/assets/vscode_commit_actions_list.png?raw=true)
 
-## Managing tags
+## Managing tags:
 - [X] To manage tags using the git-tag extention simply navigate to the SCM tab:
 
 ![vscode SCM tab](https://github.com/leecardona/vscode-setup/blob/master/assets/vscode_src_ctr_tab.png?raw=true)
@@ -113,7 +131,7 @@ Commiting code updates is pretty straight forward in VSC as it should auto detec
 
 ![sync tag?](https://github.com/leecardona/vscode-setup/blob/master/assets/vscode_sync_tag.png?raw=true)
 
-### List tags
+### List tags:
 
 - [X] Git-tag extention also allows to quickly view all your tags and even delete them if you so desire. To view your tags navigate to the SCM tab:
 
@@ -133,6 +151,65 @@ Commiting code updates is pretty straight forward in VSC as it should auto detec
 
 - [X] From here you can view all your tags as well as `DELETE` any you wish to remove
 
+## Creating Branches:
+- [X] Creating branches in VSC is pretty easy and is done via the branch switching dialog. To bring up the branch switching dialog click on the current banch indicator at the bottom left of VSC screen:
 
+![vscode branch selector](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_branch_selector.png?raw=true)
 
+- [X] This will result in the branch switching dialog as shown below:
+
+![vscode branch switcher](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_branch_dialog_menu.png?raw=true)
+
+- [X] From here simply click on the `+ Create new branch` option and you'll be presented with an input box to enter your desired branch name:
+
+![vscode branch name input](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_new_branch_name.png?raw=true)
+
+- [X] VSC also automatically switches you to the new branch once created. You can verify this by noting the current branch indicator at the lower left of the VSC screen:
+
+![vscode new branch](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_new_branch.png?raw=true)
+
+- [X] After the new branch is created be sure to update the remote repo by publishing this change. Simply click the update cloud icon to the right of the current branch indicator to update the remote repo with the new branch:
+
+![publish changes to remote](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_publish_changes.png?raw=true)
+
+## Switching Branches:
+- [X] Switching branches in VSC is pretty easy and is done via the branch switching dialog. To bring up the branch switching dialog click on the current banch indicator at the bottom left of VSC screen:
+
+![vscode branch selector](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_branch_selector.png?raw=true)
+
+- [X] This will result in the branch switching dialog as shown below:
+
+![vscode branch switcher](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_branch_dialog_menu.png?raw=true)
+
+- [X] From here simply select the desired branch from the list of available branches and VSC will automatically switch you to that branch
+
+## Merging Branches:
+- [X] Merging branches to pretty straight forward as well. First ensure you are in the `target` branch you want to update, _**not the `source` branch with the new code and/or files**_ . You can check the current banch by looking at the current branch indicator at the bottom left of VSC screen:
+
+![vscode branch selector](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_branch_selector.png?raw=true)
+
+- [X] To initiate a merge use the keyboard shortcut combination `shift+cmd+p` to bring up the VSC command prompt:
+
+![vscode merge dialog](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_merge-cmd.png?raw=true)
+
+- [X] Inside the cmd prompt, enter the `Git: Merge Branch` cmd or select it from the dropdown list of common/recent cmds. This will result in the `Select a branch to merge from` dialog appearing. 
+
+![select branch to merge](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_merge_from_dialog.png?raw=true)
+
+- [X] Select your `source` branch from the list of available branches to update the `target` branch you are currently in.
+
+## Deleting Branches:
+- [X] To delete a branch in VSC you have to first ensure you are not currently in the branch you wish to delete or you wont be able to select it for deletion. You can check the current banch by looking at the current branch indicator at the bottom left of VSC screen:
+
+![vscode branch selector](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_branch_selector.png?raw=true)
+
+- [X] Once you're sure your not in the branch you wish to delete, enter the keyboard shortcut combination `shift+cmd+p` to bring up the VSC command prompt:
+
+![vscode merge dialog](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_merge-cmd.png?raw=true)
+
+- [X] Inside the cmd prompt, enter the `Git: Delete Branch` cmd or select it from the dropdown list of common/recent cmds. This will result in the `Select a branch to delete` dialog appearing. 
+
+![select branch to merge](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_delete_branch.png?raw=true)
+
+- [X] Select the branch from the list of available branches you wish to delete.
 
