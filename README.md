@@ -1,9 +1,18 @@
 > Table of Contents
 - [Overview](https://github.com/leecardona/vscode-setup/tree/development#overview)
 - [Setup Steps](https://github.com/leecardona/vscode-setup/tree/development#setup-steps)
-- [Base Setup](https://github.com/leecardona/vscode-setup/tree/development#base-setup)
-- [Setup Git Repo](https://github.com/leecardona/vscode-setup/tree/development#setup-git-repo)
-
+  - [Base Setup](https://github.com/leecardona/vscode-setup/tree/development#base-setup)
+  - [Setup Git Repo](https://github.com/leecardona/vscode-setup/tree/development#setup-git-repo)
+  - [Setup Workspace](https://github.com/leecardona/vscode-setup/tree/development#setup-workspace)
+  - [Adding Tag Extention](https://github.com/leecardona/vscode-setup/tree/development#adding-extention-for-tag-automation)
+- [Workflow Steps](https://github.com/leecardona/vscode-setup/tree/development#workflow-steps)
+  - [Committing Code](https://github.com/leecardona/vscode-setup/tree/development#committing-code-and-updating-remote-repo)
+  - [Managing Tags](https://github.com/leecardona/vscode-setup/tree/development#managing-tags)
+    - [Create Tag](https://github.com/leecardona/vscode-setup/tree/development#create-tag)
+    - [List Tags](https://github.com/leecardona/vscode-setup/tree/development#list-tags)
+- [Creating Branches](https://github.com/leecardona/vscode-setup/tree/development#creating-branches)
+- [Switching Branches](https://github.com/leecardona/vscode-setup/tree/development#switching-branches)
+- [Merging Branches](https://github.com/leecardona/vscode-setup/tree/development#merging-branches)
 - [Deleting Branches](https://github.com/leecardona/vscode-setup/tree/development#deleting-branches)
 
 
