@@ -115,5 +115,24 @@ Commiting code updates is pretty straight forward in VSC as it should auto detec
 
 ### List tags
 
+- [X] Git-tag extention also allows to quickly view all your tags and even delete them if you so desire. To view your tags navigate to the SCM tab:
+
+![vscode SCM tab](https://github.com/leecardona/vscode-setup/blob/master/assets/vscode_src_ctr_tab.png?raw=true)
+
+- [X] Select the `More actions` icon:
+
+![commit more actions icon](https://github.com/leecardona/vscode-setup/blob/master/assets/vscode_commit_actions.png?raw=true) 
+
+- [X] To view your tags, select `List tags` from the dropdown menu:
+
+![List tag](https://github.com/leecardona/vscode-setup/blob/master/assets/vscode_list_tags.png?raw=true)
+
+- [X] This will result in a tags list window opening as shown below:
+
+![tags window](https://github.com/leecardona/vscode-setup/blob/master/assets/vscode_list_tags_list.png?raw=true)
+
+- [X] From here you can view all your tags as well as `DELETE` any you wish to remove
+
+
 
 
