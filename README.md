@@ -24,7 +24,7 @@ Documentation of steps taken to setup Visual Studio Code development environment
 ![vscode SCM tab](https://github.com/leecardona/vscode-setup/blob/master/assets/vscode_src_ctr_tab.png?raw=true)
 
 ## Setup Workspace
-*Optional:*This is an optional step but I found that VSC on Mac did not always detect file changes done on the local machine via the finder or if your repo is on a cloud drive like Google Drive or Dropbox. Creating a designated Workspace seems to address this issue. Typically a Workspace is used when you want to save the setup of you VSC working environment. For example, if your project is comprised of more than one repo folder or perhaps in addition to your primary repo folder you want to include some additional folders for quick access via the VSC file explorer tree.
+*Optional:* This is an optional step but I found that VSC on Mac did not always detect file changes done on the local machine via the finder or if your repo is on a cloud drive like Google Drive or Dropbox. Creating a designated Workspace seems to address this issue. Typically a Workspace is used when you want to save the setup of you VSC working environment. For example, if your project is comprised of more than one repo folder or perhaps in addition to your primary repo folder you want to include some additional folders for quick access via the VSC file explorer tree.
 
 - [X] Ensure you're in the desired repo by selecting the `Explorer` tab
 
