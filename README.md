@@ -220,7 +220,7 @@ Commiting code updates is pretty straight forward in VSC as it should auto detec
 I welcome and appreciate community contributions. If you have an idea or a question I'd love to hear from you! The easiest ways to contribute is by forking this repo followed by a pull request or raising an issues in this repo's Github.
 
 # Copyright
-Copyright 2018 Lee Cardona. @leecardona
+Copyright 2018 Lee Cardona. [@leecardona](https://twitter.com/leecardona)
 
 # License
 The documentation is provided under Apache License 2.0. Contributions to this project are accepted under the same license.
