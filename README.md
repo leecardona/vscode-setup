@@ -154,7 +154,19 @@ Commiting code updates is pretty straight forward in VSC as it should auto detec
 
 ![publish changes to remote](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_publish_changes.png?raw=true)
 
+## Switching Branches
+- [X] Switching branches in VSC is pretty easy and is done via the branch switching dialog. To bring up the branch switching dialog click on the current banch indicator at the bottom left of VSC screen:
 
+![vscode branch selector](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_branch_selector.png?raw=true)
 
+- [X] This will result in the branch switching dialog as shown below:
+
+![vscode branch switcher](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_branch_dialog_menu.png?raw=true)
+
+- [X] From here simply select the desired branch from the list of available branches and VSC will automatically switch you to that branch
+
+## Merging Branches
+
+## Deleting Branches
 
 
