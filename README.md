@@ -62,7 +62,23 @@ _Optional:_ Git tags are used to denote key points in code development that sign
 - [X] From the result of tag related extentions select `git-tag` by clicking on the `install` button for it.
 
 ## Commiting code and updating remote repo
-Commiting code updates is pretty straight forward in VSC as it should auto detect any changes to your local git repo. When it does it will provide a visual indication by placing a badge over the SCM tab icon denoting how many changes it has deteced, like so:
+Commiting code updates is pretty straight forward in VSC as it should auto detect any changes to your local git repo. When it does, VSC will provide a visual indication by placing a badge over the SCM tab icon denoting how many changes it has deteced, like so:
 
 ![change detection indicator](https://github.com/leecardona/vscode-setup/blob/master/assets/change_detected.png?raw=true)
+
+- [X] To commit changes select the SCM tab and you be presented with the commit box as shown below:
+
+![commit box](https://github.com/leecardona/vscode-setup/blob/master/assets/vscode_src_ctrl_chg_commit.png?raw=true)
+
+- [X] To locally commit your changes simply enter a commit message in the provided box and then click on the `Check Mark` above the message box:
+
+![checkin commit](https://github.com/leecardona/vscode-setup/blob/master/assets/vscode_commit_checkmark.png?raw=true)
+
+- [X] Once your changes have been commited you are able to push or sync your changes with the remote repo or perform other actions by selecting the `More actions` icon, represented by an elipse icon:
+
+![commit more actions icon](https://github.com/leecardona/vscode-setup/blob/master/assets/vscode_commit_actions.png?raw=true)
+
+- [X] This will result in the actions dropdown dialog appearing. From here simply select the git action you wish to perform for this commit, e.g. push, pull, sync, other...
+
+![list of git commit action](https://github.com/leecardona/vscode-setup/blob/master/assets/vscode_commit_actions_list.png?raw=true)
 
