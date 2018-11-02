@@ -184,7 +184,7 @@ Commiting code updates is pretty straight forward in VSC as it should auto detec
 - [X] From here simply select the desired branch from the list of available branches and VSC will automatically switch you to that branch
 
 ## Merging Branches:
-- [X] Merging branches to pretty straight forward as well. First ensure you are in the `target` branch you want to update, * not the `source` branch with the new code and/or files * . You check the current banch by looking at the current branch indicator at the bottom left of VSC screen:
+- [X] Merging branches to pretty straight forward as well. First ensure you are in the `target` branch you want to update, _**not the `source` branch with the new code and/or files**_ . You check the current banch by looking at the current branch indicator at the bottom left of VSC screen:
 
 ![vscode branch selector](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_branch_selector.png?raw=true)
 
