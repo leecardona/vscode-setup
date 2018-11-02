@@ -1,5 +1,9 @@
 # vscode-setup
-Documentation of steps taken to setup Visual Studio Code development environment (Mac version)
+Documentation of steps taken to setup and use a Visual Studio Code development environment (Mac version)
+
+
+# Setup Steps
+Below are the steps required, *with some optional steps* , to setup a working VSC environment. These step are typically only performed once.
 
 ## Base Setup:
 - [X] Download Visual Studio Code (VSC) from https://code.visualstudio.com/
@@ -60,6 +64,10 @@ Documentation of steps taken to setup Visual Studio Code development environment
 ![VSC marketplace](https://github.com/leecardona/vscode-setup/blob/master/assets/vscode_marketplace.png?raw=true)
 
 - [X] From the result of tag related extentions select `git-tag` by clicking on the `install` button for it.
+
+
+# Workflow Steps
+Below are steps that are performed as part of using VSC on a normal iterative basis.
 
 ## Committing code and updating remote repo
 Commiting code updates is pretty straight forward in VSC as it should auto detect any changes to your local git repo. When it does, VSC will provide a visual indication by placing a badge over the SCM tab icon denoting how many changes it has deteced, like so:
