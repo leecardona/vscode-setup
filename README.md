@@ -24,7 +24,7 @@ Documentation of steps taken to setup Visual Studio Code development environment
 ![vscode SCM tab](https://github.com/leecardona/vscode-setup/blob/master/assets/vscode_src_ctr_tab.png?raw=true)
 
 ## Setup Workspace
-_Optional:_This is an optional step but I found that VSC on Mac did not always detect file changes done on the local machine via the finder or if your repo is on a cloud drive like Google Drive or Dropbox. Creating a designated Workspace seems to address this issue. Typically a Workspace is used when you want to save the setup of you VSC working environment. For example, if your project is comprised of more than one repo folder or perhaps in addition to your primary repo folder you want to include some additional folders for quick access via the VSC file explorer tree.
+*Optional:*This is an optional step but I found that VSC on Mac did not always detect file changes done on the local machine via the finder or if your repo is on a cloud drive like Google Drive or Dropbox. Creating a designated Workspace seems to address this issue. Typically a Workspace is used when you want to save the setup of you VSC working environment. For example, if your project is comprised of more than one repo folder or perhaps in addition to your primary repo folder you want to include some additional folders for quick access via the VSC file explorer tree.
 
 - [X] Ensure you're in the desired repo by selecting the `Explorer` tab
 
@@ -47,7 +47,7 @@ _Optional:_This is an optional step but I found that VSC on Mac did not always d
 ![repo is a workspace in explorer](https://github.com/leecardona/vscode-setup/blob/master/assets/vscode_workspace_in_explorer.png?raw=true)
 
 ## Adding Extention for Tag Automation
-_Optional:_ Git tags are used to denote key points in code development that signify a milestone, typically a release of some kind like a major or minor release version, or hotfix. Git hosting services like Github will detect tags and auto create releases for you with nice zipped file links for easy release downloading for end-users. VSC support plugins/extentions that add easy to use features to the user interface of VSC that can make activities like tagging easier to manage. 
+*Optional:* Git tags are used to denote key points in code development that signify a milestone, typically a release of some kind like a major or minor release version, or hotfix. Git hosting services like Github will detect tags and auto create releases for you with nice zipped file links for easy release downloading for end-users. VSC support plugins/extentions that add easy to use features to the user interface of VSC that can make activities like tagging easier to manage. 
 
 - [X] Go to the VSC Marketplace to search and install available extentions. Enter the keyboard shortcut `cmd + p` Note this brings up the quick actions dialog not the VSC cmd prompt - they are not the same.
 
