@@ -90,3 +90,30 @@ Commiting code updates is pretty straight forward in VSC as it should auto detec
 
 ![list of git commit action](https://github.com/leecardona/vscode-setup/blob/master/assets/vscode_commit_actions_list.png?raw=true)
 
+## Managing tags
+- [X] To manage tags using the git-tag extention simply navigate to the SCM tab:
+
+![vscode SCM tab](https://github.com/leecardona/vscode-setup/blob/master/assets/vscode_src_ctr_tab.png?raw=true)
+
+- [X] Select the `More actions` icon:
+
+![commit more actions icon](https://github.com/leecardona/vscode-setup/blob/master/assets/vscode_commit_actions.png?raw=true)
+
+### Create tag
+
+- [X] To add a tag to the current commit, select `Create tag` from the dropdown menu:
+
+![Create tag](https://github.com/leecardona/vscode-setup/blob/master/assets/vscode_create_tag.png?raw=true)
+
+- [X] This will result in a create tag input dialog box opening:
+
+![enter tag dialog box](https://github.com/leecardona/vscode-setup/blob/master/assets/vscode_enter_tag.png?raw=true)
+
+- [X] Enter your desired tag value and press enter. You will then be prompted for syncing your remote repo with this tag at this time or not. Normally select `Yes` to complete this operation.
+
+![sync tag?](https://github.com/leecardona/vscode-setup/blob/master/assets/vscode_sync_tag.png?raw=true)
+
+### List tags
+
+
+
