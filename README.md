@@ -14,6 +14,9 @@
   - [Switching Branches](https://github.com/leecardona/vscode-setup/tree/development#switching-branches)
   - [Merging Branches](https://github.com/leecardona/vscode-setup/tree/development#merging-branches)
   - [Deleting Branches](https://github.com/leecardona/vscode-setup/tree/development#deleting-branches)
+- [Contributing](https://github.com/leecardona/vscode-setup/tree/development#contributing)
+- [Copyright](https://github.com/leecardona/vscode-setup/tree/development#copyright)
+- [License](https://github.com/leecardona/vscode-setup/tree/development#license)
 
 
 # Overview:
@@ -212,4 +215,13 @@ Commiting code updates is pretty straight forward in VSC as it should auto detec
 ![select branch to merge](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_delete_branch.png?raw=true)
 
 - [X] Select the branch from the list of available branches you wish to delete.
+
+# Contributing
+I welcome and appreciate community contributions. If you have an idea or a question I'd love to hear from you! The easiest ways to contribute is by forking this repo followed by a pull request or raising an issues in this repo's Github.
+
+# Copyright
+Copyright 2018 Lee Cardona. [@leecardona](https://twitter.com/leecardona)
+
+# License
+The documentation is provided under Apache License 2.0. Contributions to this project are accepted under the same license.
 
