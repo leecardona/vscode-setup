@@ -33,7 +33,7 @@ Below are the steps required, *with some optional steps* , to setup a working VS
 - [X] Launch command prompt with keyboard shortcut `shift+cmd+p`
 
 ![vscode cmd prompt](https://raw.githubusercontent.com/leecardona/vscode-setup/master/assets/vscode_cmd_prompt.png)
-- [X] Inside the cmd prompt, enter the `Git: Clone` cmd or select it from the downdown list of common/recent cmds
+- [X] Inside the cmd prompt, enter the `Git: Clone` cmd or select it from the dropdown list of common/recent cmds
 - [X] This will prompt you for your `repo url` e.g. `https://github.com/leecardona/vscode-setup.git` 
 
 ![repo url prompt](https://github.com/leecardona/vscode-setup/blob/master/assets/repo_url_prompt.png?raw=true)
@@ -192,7 +192,7 @@ Commiting code updates is pretty straight forward in VSC as it should auto detec
 
 ![vscode merge dialog](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_merge-cmd.png?raw=true)
 
-- [X] Inside the cmd prompt, enter the `Git: Merge Branch` cmd or select it from the downdown list of common/recent cmds. This will result in the `Select a branch to merge from` dialog appearing. 
+- [X] Inside the cmd prompt, enter the `Git: Merge Branch` cmd or select it from the dropdown list of common/recent cmds. This will result in the `Select a branch to merge from` dialog appearing. 
 
 ![select branch to merge](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_merge_from_dialog.png?raw=true)
 
@@ -207,9 +207,9 @@ Commiting code updates is pretty straight forward in VSC as it should auto detec
 
 ![vscode merge dialog](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_merge-cmd.png?raw=true)
 
-- [X] Inside the cmd prompt, enter the `Git: Delete Branch` cmd or select it from the downdown list of common/recent cmds. This will result in the `Select a branch to delete` dialog appearing. 
+- [X] Inside the cmd prompt, enter the `Git: Delete Branch` cmd or select it from the dropdown list of common/recent cmds. This will result in the `Select a branch to delete` dialog appearing. 
 
 ![select branch to merge](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_delete_branch.png?raw=true)
 
-
+- [X] Select the branch from the list of available branches you wish to delete.
 
