@@ -10,10 +10,10 @@
   - [Managing Tags](https://github.com/leecardona/vscode-setup/tree/development#managing-tags)
     - [Create Tag](https://github.com/leecardona/vscode-setup/tree/development#create-tag)
     - [List Tags](https://github.com/leecardona/vscode-setup/tree/development#list-tags)
-- [Creating Branches](https://github.com/leecardona/vscode-setup/tree/development#creating-branches)
-- [Switching Branches](https://github.com/leecardona/vscode-setup/tree/development#switching-branches)
-- [Merging Branches](https://github.com/leecardona/vscode-setup/tree/development#merging-branches)
-- [Deleting Branches](https://github.com/leecardona/vscode-setup/tree/development#deleting-branches)
+  - [Creating Branches](https://github.com/leecardona/vscode-setup/tree/development#creating-branches)
+  - [Switching Branches](https://github.com/leecardona/vscode-setup/tree/development#switching-branches)
+  - [Merging Branches](https://github.com/leecardona/vscode-setup/tree/development#merging-branches)
+  - [Deleting Branches](https://github.com/leecardona/vscode-setup/tree/development#deleting-branches)
 
 
 # Overview:
