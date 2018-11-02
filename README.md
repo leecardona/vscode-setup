@@ -133,6 +133,28 @@ Commiting code updates is pretty straight forward in VSC as it should auto detec
 
 - [X] From here you can view all your tags as well as `DELETE` any you wish to remove
 
+## Creating Branches
+- [X] Creating branches in VSC is pretty easy and is done via the branch switching dialog. To bring up the branch switching dialog click on the current banch indicator at the bottom left of VSC screen:
+
+![vscode branch selector](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_branch_selector.png?raw=true)
+
+- [X] This will result in the branch switching dialog as shown below:
+
+![vscode branch switcher](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_branch_dialog_menu.png?raw=true)
+
+- [X] From here simply click on the `+ Create new branch` option and you'll be presented with an input box to enter your desired branch name:
+
+![vscode branch name input](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_new_branch_name.png?raw=true)
+
+- [X] VSC also automatically switches you to the new branch once created. You can verify this by noting the current branch indicator at the lower left of the VSC screen:
+
+![vscode new branch](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_new_branch.png?raw=true)
+
+- [X] After the new branch is created be sure to update the remote repo by publishing this change. Simply click the update cloud icon to the right of the current branch indicator to update the remote repo with the new branch:
+
+![publish changes to remote](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_publish_changes.png?raw=true)
+
+
 
 
 
