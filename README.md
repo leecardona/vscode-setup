@@ -184,7 +184,7 @@ Commiting code updates is pretty straight forward in VSC as it should auto detec
 - [X] From here simply select the desired branch from the list of available branches and VSC will automatically switch you to that branch
 
 ## Merging Branches:
-- [X] Merging branches to pretty straight forward as well. First ensure you are in the `target` branch you want to update, _**not the `source` branch with the new code and/or files**_ . You check the current banch by looking at the current branch indicator at the bottom left of VSC screen:
+- [X] Merging branches to pretty straight forward as well. First ensure you are in the `target` branch you want to update, _**not the `source` branch with the new code and/or files**_ . You can check the current banch by looking at the current branch indicator at the bottom left of VSC screen:
 
 ![vscode branch selector](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_branch_selector.png?raw=true)
 
@@ -192,12 +192,24 @@ Commiting code updates is pretty straight forward in VSC as it should auto detec
 
 ![vscode merge dialog](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_merge-cmd.png?raw=true)
 
-- [X] Inside the cmd prompt, enter the `Git: Merge Branch` cmd or select it from the downdown list of common/recent cmds. This will result in the `Select a branch to merge from` dialog to appear. 
+- [X] Inside the cmd prompt, enter the `Git: Merge Branch` cmd or select it from the downdown list of common/recent cmds. This will result in the `Select a branch to merge from` dialog appearing. 
 
 ![select branch to merge](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_merge_from_dialog.png?raw=true)
 
 - [X] Select your `source` branch from the list of available branches to update the `target` branch you are currently in.
 
 ## Deleting Branches:
+- [X] To delete a branch in VSC you have to first ensure you are not currently in the branch you wish to delete or you wont be able to select it for deletion. You can check the current banch by looking at the current branch indicator at the bottom left of VSC screen:
+
+![vscode branch selector](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_branch_selector.png?raw=true)
+
+- [X] Once you're sure your not in the branch you wish to delete, enter the keyboard shortcut combination `shift+cmd+p` to bring up the VSC command prompt:
+
+![vscode merge dialog](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_merge-cmd.png?raw=true)
+
+- [X] Inside the cmd prompt, enter the `Git: Delete Branch` cmd or select it from the downdown list of common/recent cmds. This will result in the `Select a branch to delete` dialog appearing. 
+
+![select branch to merge](https://github.com/leecardona/vscode-setup/blob/development/assets/vscode_delete_branch.png?raw=true)
+
 
 
