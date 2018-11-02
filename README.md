@@ -1,5 +1,5 @@
 # vscode-setup
-Documentation of steps taken to setup and use a Visual Studio Code development environment (Mac version)
+Documentation of steps taken to setup and use Visual Studio Code for development on a Mac environment
 
 
 # Setup Steps
